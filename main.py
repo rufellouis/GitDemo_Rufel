@@ -19,3 +19,4 @@ def read_csv_into_sparkdf():
 
 if __name__ == "__main__":
     df = read_csv_into_sparkdf()
+    df_count = df.count()
